@@ -1,0 +1,31 @@
+{
+    "name": "artemeon/daff-php",
+    "description": "align and compare tables",
+    "homepage": "https://github.com/artemeon/daff-php",
+    "keywords": ["php","csv","diff","patch"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ARTEMEON Management Partner GmbH",
+            "email": "development@artemeon.de"
+        },
+        {
+            "name": "Paul Fitzpatrick",
+            "email": "paulfitz@alum.mit.edu"
+        }
+    ],
+    "require": {
+        "php": ">=7.3",
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "files": ["lib/php/Boot.php"],
+        "psr-4": {
+            "": "lib/"
+        }
+    },
+    "require-dev": {
+        "vimeo/psalm": "^4.7"
+    }
+}
